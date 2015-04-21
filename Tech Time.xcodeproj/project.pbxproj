@@ -23,6 +23,12 @@
 		CCC667851A8B1DE500566932 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC667831A8B1DE500566932 /* LaunchScreen.xib */; };
 		CCC667911A8B1DE600566932 /* Tech_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC667901A8B1DE600566932 /* Tech_TimeTests.m */; };
 		CCD5DBAB1A8C620800D77401 /* SharedNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DBAA1A8C620800D77401 /* SharedNetworking.m */; };
+		CCF18E7F1AE701BC001DE6DD /* 5.PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF18E791AE701BC001DE6DD /* 5.PNG.png */; };
+		CCF18E801AE701BC001DE6DD /* 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CCF18E7A1AE701BC001DE6DD /* 4.PNG */; };
+		CCF18E811AE701BC001DE6DD /* 3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CCF18E7B1AE701BC001DE6DD /* 3.PNG */; };
+		CCF18E821AE701BC001DE6DD /* 6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CCF18E7C1AE701BC001DE6DD /* 6.PNG */; };
+		CCF18E831AE701BC001DE6DD /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CCF18E7D1AE701BC001DE6DD /* 2.PNG */; };
+		CCF18E841AE701BC001DE6DD /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CCF18E7E1AE701BC001DE6DD /* 1.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		CCC667901A8B1DE600566932 /* Tech_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tech_TimeTests.m; sourceTree = "<group>"; };
 		CCD5DBA91A8C620800D77401 /* SharedNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedNetworking.h; sourceTree = "<group>"; };
 		CCD5DBAA1A8C620800D77401 /* SharedNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedNetworking.m; sourceTree = "<group>"; };
+		CCF18E791AE701BC001DE6DD /* 5.PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.PNG.png; sourceTree = "<group>"; };
+		CCF18E7A1AE701BC001DE6DD /* 4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.PNG; sourceTree = "<group>"; };
+		CCF18E7B1AE701BC001DE6DD /* 3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.PNG; sourceTree = "<group>"; };
+		CCF18E7C1AE701BC001DE6DD /* 6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.PNG; sourceTree = "<group>"; };
+		CCF18E7D1AE701BC001DE6DD /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
+		CCF18E7E1AE701BC001DE6DD /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,12 @@
 		CCC667651A8B1DE400566932 = {
 			isa = PBXGroup;
 			children = (
+				CCF18E791AE701BC001DE6DD /* 5.PNG.png */,
+				CCF18E7A1AE701BC001DE6DD /* 4.PNG */,
+				CCF18E7B1AE701BC001DE6DD /* 3.PNG */,
+				CCF18E7C1AE701BC001DE6DD /* 6.PNG */,
+				CCF18E7D1AE701BC001DE6DD /* 2.PNG */,
+				CCF18E7E1AE701BC001DE6DD /* 1.PNG */,
 				CC46BA2F1A90138D00FA2715 /* Social.framework */,
 				CCC667701A8B1DE500566932 /* Tech Time */,
 				CCC6678D1A8B1DE600566932 /* Tech TimeTests */,
@@ -263,10 +281,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF18E841AE701BC001DE6DD /* 1.PNG in Resources */,
+				CCF18E831AE701BC001DE6DD /* 2.PNG in Resources */,
+				CCF18E821AE701BC001DE6DD /* 6.PNG in Resources */,
 				CC5786151A9B31FC007BBDC6 /* Chicago.jpg in Resources */,
 				CCC356DD1A999BF2001CDE17 /* Settings.bundle in Resources */,
 				CCC667801A8B1DE500566932 /* Main.storyboard in Resources */,
+				CCF18E811AE701BC001DE6DD /* 3.PNG in Resources */,
 				CCC667851A8B1DE500566932 /* LaunchScreen.xib in Resources */,
+				CCF18E801AE701BC001DE6DD /* 4.PNG in Resources */,
+				CCF18E7F1AE701BC001DE6DD /* 5.PNG.png in Resources */,
 				CCC667821A8B1DE500566932 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
