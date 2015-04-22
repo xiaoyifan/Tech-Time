@@ -1,5 +1,5 @@
 # Tech-Time
-the first release version of RSS reader
+the first release version of RSS reader, App Store pending.
 
 The release version of App iPad-news-browser in this acccount. 
 Tech Time is a brief app which provides you with Top tech news from Engadget, users could like the articles, put it into
