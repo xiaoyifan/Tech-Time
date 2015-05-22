@@ -10,6 +10,7 @@
 		CC0027BE1A98586C00760ED3 /* FileSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0027BD1A98586C00760ED3 /* FileSession.m */; };
 		CC032F891A8D4C2000D16270 /* MasterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC032F881A8D4C2000D16270 /* MasterCell.m */; };
 		CC46BA301A90138D00FA2715 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC46BA2F1A90138D00FA2715 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC54E1091B0FD1A800D40DC3 /* pageController.m */; };
 		CC5786151A9B31FC007BBDC6 /* Chicago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5786141A9B31FC007BBDC6 /* Chicago.jpg */; };
 		CC7772341A98418900A012D4 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7772331A98418900A012D4 /* Article.m */; };
 		CC949A5A1AE737230097C59A /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A541AE737230097C59A /* 1.PNG */; };
@@ -83,6 +84,9 @@
 		CC032F871A8D4C2000D16270 /* MasterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterCell.h; sourceTree = "<group>"; };
 		CC032F881A8D4C2000D16270 /* MasterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterCell.m; sourceTree = "<group>"; };
 		CC46BA2F1A90138D00FA2715 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CC54E1081B0FD1A800D40DC3 /* pageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pageController.h; sourceTree = "<group>"; };
+		CC54E1091B0FD1A800D40DC3 /* pageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageController.m; sourceTree = "<group>"; };
+		CC54E10B1B0FD7D400D40DC3 /* Tech Time.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tech Time.entitlements"; sourceTree = "<group>"; };
 		CC5786141A9B31FC007BBDC6 /* Chicago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chicago.jpg; sourceTree = "<group>"; };
 		CC7772321A98418900A012D4 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Article.h; path = ../Article.h; sourceTree = "<group>"; };
 		CC7772331A98418900A012D4 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Article.m; path = ../Article.m; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 				CCBEE9961B0FB91C000E0307 /* InterfaceController.m */,
 				CCBEE9981B0FB91C000E0307 /* NotificationController.h */,
 				CCBEE9991B0FB91C000E0307 /* NotificationController.m */,
+				CC54E1081B0FD1A800D40DC3 /* pageController.h */,
+				CC54E1091B0FD1A800D40DC3 /* pageController.m */,
 				CCBEE99B1B0FB91C000E0307 /* GlanceController.h */,
 				CCBEE99C1B0FB91C000E0307 /* GlanceController.m */,
 				CCBEE99E1B0FB91C000E0307 /* Images.xcassets */,
@@ -257,6 +263,7 @@
 		CCC667701A8B1DE500566932 /* Tech Time */ = {
 			isa = PBXGroup;
 			children = (
+				CC54E10B1B0FD7D400D40DC3 /* Tech Time.entitlements */,
 				CC0027BC1A98586C00760ED3 /* FileSession.h */,
 				CC0027BD1A98586C00760ED3 /* FileSession.m */,
 				CCD5DBA91A8C620800D77401 /* SharedNetworking.h */,
@@ -388,12 +395,20 @@
 				TargetAttributes = {
 					CCBEE98F1B0FB91C000E0307 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4NPA9YHQ69;
 					};
 					CCBEE9A11B0FB91C000E0307 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4NPA9YHQ69;
 					};
 					CCC6676D1A8B1DE500566932 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 4NPA9YHQ69;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					CCC667891A8B1DE600566932 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -473,6 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */,
 				CCBEE99A1B0FB91C000E0307 /* NotificationController.m in Sources */,
 				CCBEE9971B0FB91C000E0307 /* InterfaceController.m in Sources */,
 				CCBEE99D1B0FB91C000E0307 /* GlanceController.m in Sources */,
@@ -554,6 +570,7 @@
 		CCBEE9B11B0FB91C000E0307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -561,7 +578,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tech Time WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
@@ -571,11 +588,12 @@
 		CCBEE9B21B0FB91C000E0307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Tech Time WatchKit Extension/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SKIP_INSTALL = YES;
@@ -586,6 +604,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -594,7 +613,7 @@
 				);
 				IBSC_MODULE = Tech_Time_WatchKit_Extension;
 				INFOPLIST_FILE = "Tech Time WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -606,12 +625,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = Tech_Time_WatchKit_Extension;
 				INFOPLIST_FILE = "Tech Time WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -653,7 +673,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -689,7 +709,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -702,10 +722,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "Tech Time/Tech Time.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tech Time/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -715,10 +739,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_ENTITLEMENTS = "Tech Time/Tech Time.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Tech Time/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -767,6 +795,7 @@
 				CCBEE9B41B0FB91C000E0307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCBEE9B61B0FB91C000E0307 /* Build configuration list for PBXNativeTarget "Tech Time WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -775,6 +804,7 @@
 				CCBEE9B21B0FB91C000E0307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC667691A8B1DE500566932 /* Build configuration list for PBXProject "Tech Time" */ = {
 			isa = XCConfigurationList;

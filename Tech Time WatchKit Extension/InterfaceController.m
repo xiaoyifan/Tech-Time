@@ -32,6 +32,61 @@
     [super didDeactivate];
 }
 
+- (IBAction)newsButtonPressed {
+    
+    NSArray *controllerNames = @[
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController"
+                                 ];
+    
+    NSArray *contexts  = @[@"1",
+                           @"2",
+                           @"3",
+                           @"4",
+                           @"5",
+                           @"6",
+                           @"7",
+                           @"8",
+                           @"9",
+                           @"10",];
+    //get from the main app
+    
+    [self presentControllerWithNames:controllerNames contexts:contexts];
+    
+}
+
+- (IBAction)favoriteButtonPressed {
+    
+    NSArray *controllerNames = @[
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController",
+                                 @"pageController"
+                                 ];
+    
+    NSArray *contexts  = @[@"1",
+                           @"2",
+                           @"3",
+                           @"4",
+                           @"5"];
+    //get from the main app
+    
+    [self presentControllerWithNames:controllerNames contexts:contexts];
+    
+}
+
+
+
+
 @end
 
 
