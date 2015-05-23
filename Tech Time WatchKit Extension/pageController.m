@@ -14,6 +14,11 @@
 
 @property (weak, nonatomic) IBOutlet WKInterfaceLabel *pageLabel;
 
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *dateLabel;
+
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *contentLabel;
+
+
 @end
 
 @implementation pageController
@@ -24,6 +29,10 @@
     Article *article = context;
 
     [self.pageLabel setText:[NSString stringWithFormat:@"%@", article.title]];
+    
+    [self.dateLabel setText:[NSString stringWithFormat:@"%@", article.publishedDate]];
+    
+    [self.contentLabel setText:[NSString stringWithFormat:@"%@", article.contentSnippet]];
     // Configure interface objects here.
 }
 

@@ -32,16 +32,23 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="235" y="347"/>
+            <point key="canvasLocation" x="217" y="344"/>
         </scene>
         <!--pageController-->
         <scene sceneID="QhI-kJ-nRs">
             <objects>
                 <controller identifier="pageController" id="NLU-WA-OaJ" customClass="pageController">
                     <items>
-                        <label width="1" height="0.5" alignment="center" text="Label" textAlignment="center" id="aWH-9G-is6"/>
+                        <label width="1" alignment="center" text="Label" textAlignment="center" numberOfLines="0" id="aWH-9G-is6"/>
+                        <label width="1" alignment="center" text="Label" minimumScaleFactor="0.5" id="gMy-54-80q">
+                            <color key="textColor" red="0.88204308710000001" green="0.88204308710000001" blue="0.88204308710000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                        <label width="1" height="1" alignment="center" text="Label" numberOfLines="0" id="0r6-Hl-IXg"/>
                     </items>
                     <connections>
+                        <outlet property="contentLabel" destination="0r6-Hl-IXg" id="a8k-fn-qMH"/>
+                        <outlet property="dateLabel" destination="gMy-54-80q" id="0nh-KW-RWg"/>
                         <outlet property="pageLabel" destination="aWH-9G-is6" id="D2p-fG-WGf"/>
                     </connections>
                 </controller>
@@ -83,7 +90,7 @@
             <objects>
                 <controller id="gdX-wl-uQE" customClass="NotificationController"/>
             </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
+            <point key="canvasLocation" x="446" y="1001"/>
         </scene>
     </scenes>
 </document>

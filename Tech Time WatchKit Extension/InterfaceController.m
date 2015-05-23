@@ -64,22 +64,17 @@ static NSString *appGroup = @"group.mobi.xiaoyifan.techtime";
 
 - (IBAction)favoriteButtonPressed {
     
-    NSArray *controllerNames = @[
-                                 @"pageController",
-                                 @"pageController",
-                                 @"pageController",
-                                 @"pageController",
-                                 @"pageController"
-                                 ];
+    NSURL *listURL = [FileSession getListURL];
+    NSArray *array = [FileSession readDataFromList:listURL];
     
-    NSArray *contexts  = @[@"1",
-                           @"2",
-                           @"3",
-                           @"4",
-                           @"5"];
-    //get from the main app
+    NSMutableArray *controllerNames = [[NSMutableArray alloc] initWithObjects:nil, nil];
     
-    [self presentControllerWithNames:controllerNames contexts:contexts];
+    for (int i=0; i<array.count; i++) {
+        [controllerNames addObject:@"pageController"];
+    }
+
+    
+    [self presentControllerWithNames:controllerNames contexts:array];
     
 }
 
