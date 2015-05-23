@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CCC6676D1A8B1DE500566932"
-               BuildableName = "Tech Time.app"
-               BlueprintName = "Tech Time"
-               ReferencedContainer = "container:Tech Time.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CC9F6CAA1B1137B50033B53C"
-               BuildableName = "NewsKitTests.xctest"
-               BlueprintName = "NewsKitTests"
+               BlueprintIdentifier = "CC9F6CA01B1137B50033B53C"
+               BuildableName = "NewsKit.framework"
+               BlueprintName = "NewsKit"
                ReferencedContainer = "container:Tech Time.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CC9F6CAA1B1137B50033B53C"
-               BuildableName = "NewsKitTests.xctest"
-               BlueprintName = "NewsKitTests"
-               ReferencedContainer = "container:Tech Time.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCC6676D1A8B1DE500566932"
-            BuildableName = "Tech Time.app"
-            BlueprintName = "Tech Time"
-            ReferencedContainer = "container:Tech Time.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -72,16 +39,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCC6676D1A8B1DE500566932"
-            BuildableName = "Tech Time.app"
-            BlueprintName = "Tech Time"
+            BlueprintIdentifier = "CC9F6CA01B1137B50033B53C"
+            BuildableName = "NewsKit.framework"
+            BlueprintName = "NewsKit"
             ReferencedContainer = "container:Tech Time.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +57,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CCC6676D1A8B1DE500566932"
-            BuildableName = "Tech Time.app"
-            BlueprintName = "Tech Time"
+            BlueprintIdentifier = "CC9F6CA01B1137B50033B53C"
+            BuildableName = "NewsKit.framework"
+            BlueprintName = "NewsKit"
             ReferencedContainer = "container:Tech Time.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

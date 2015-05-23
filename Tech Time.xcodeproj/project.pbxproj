@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC0027BE1A98586C00760ED3 /* FileSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0027BD1A98586C00760ED3 /* FileSession.m */; };
 		CC032F891A8D4C2000D16270 /* MasterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC032F881A8D4C2000D16270 /* MasterCell.m */; };
 		CC46BA301A90138D00FA2715 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC46BA2F1A90138D00FA2715 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC54E1091B0FD1A800D40DC3 /* pageController.m */; };
 		CC5786151A9B31FC007BBDC6 /* Chicago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5786141A9B31FC007BBDC6 /* Chicago.jpg */; };
 		CC6295881B104ED4006301BA /* DefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6295871B104ED4006301BA /* DefaultManager.m */; };
-		CC62958E1B1065D5006301BA /* FileSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62958D1B1065D5006301BA /* FileSession.m */; };
-		CC6295921B106F6D006301BA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6295901B106F6D006301BA /* Article.m */; };
-		CC6295981B107814006301BA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6295961B107814006301BA /* Article.m */; };
 		CC949A5A1AE737230097C59A /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A541AE737230097C59A /* 1.PNG */; };
 		CC949A5B1AE737230097C59A /* 6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A551AE737230097C59A /* 6.PNG */; };
 		CC949A5C1AE737230097C59A /* 5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A561AE737230097C59A /* 5.PNG */; };
@@ -23,6 +19,17 @@
 		CC949A5E1AE737230097C59A /* 4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A581AE737230097C59A /* 4.PNG */; };
 		CC949A5F1AE737230097C59A /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A591AE737230097C59A /* 2.PNG */; };
 		CC98605D1A8EA41A00217B10 /* bookmarkTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC98605C1A8EA41A00217B10 /* bookmarkTableViewController.m */; };
+		CC9F6CA61B1137B50033B53C /* NewsKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9F6CA51B1137B50033B53C /* NewsKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9F6CAC1B1137B50033B53C /* NewsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F6CA11B1137B50033B53C /* NewsKit.framework */; };
+		CC9F6CB51B1137B50033B53C /* NewsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F6CB41B1137B50033B53C /* NewsKitTests.m */; };
+		CC9F6CB81B1137B50033B53C /* NewsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F6CA11B1137B50033B53C /* NewsKit.framework */; };
+		CC9F6CB91B1137B50033B53C /* NewsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F6CA11B1137B50033B53C /* NewsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC9F6CC11B1139490033B53C /* NewsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F6CA11B1137B50033B53C /* NewsKit.framework */; };
+		CC9F6CC21B1139490033B53C /* NewsKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC9F6CA11B1137B50033B53C /* NewsKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC9F6CCC1B113CED0033B53C /* Article.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9F6CC81B113CED0033B53C /* Article.h */; };
+		CC9F6CCD1B113CED0033B53C /* FileSession.h in Headers */ = {isa = PBXBuildFile; fileRef = CC9F6CC91B113CED0033B53C /* FileSession.h */; };
+		CC9F6CCE1B113CED0033B53C /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F6CCA1B113CED0033B53C /* Article.m */; };
+		CC9F6CCF1B113CED0033B53C /* FileSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9F6CCB1B113CED0033B53C /* FileSession.m */; };
 		CCBEE9971B0FB91C000E0307 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE9961B0FB91C000E0307 /* InterfaceController.m */; };
 		CCBEE99A1B0FB91C000E0307 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE9991B0FB91C000E0307 /* NotificationController.m */; };
 		CCBEE99D1B0FB91C000E0307 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBEE99C1B0FB91C000E0307 /* GlanceController.m */; };
@@ -44,6 +51,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CC9F6CAD1B1137B50033B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC667661A8B1DE500566932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9F6CA01B1137B50033B53C;
+			remoteInfo = NewsKit;
+		};
+		CC9F6CAF1B1137B50033B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC667661A8B1DE500566932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC6676D1A8B1DE500566932;
+			remoteInfo = "Tech Time";
+		};
+		CC9F6CB61B1137B50033B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC667661A8B1DE500566932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9F6CA01B1137B50033B53C;
+			remoteInfo = NewsKit;
+		};
+		CC9F6CC31B1139490033B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC667661A8B1DE500566932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC9F6CA01B1137B50033B53C;
+			remoteInfo = NewsKit;
+		};
 		CCBEE9A41B0FB91C000E0307 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CCC667661A8B1DE500566932 /* Project object */;
@@ -68,6 +103,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		CC9F6CBD1B1137B50033B53C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC9F6CB91B1137B50033B53C /* NewsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9F6CC51B11394A0033B53C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CC9F6CC21B1139490033B53C /* NewsKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCBEE9B71B0FB91C000E0307 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -82,8 +139,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CC0027BC1A98586C00760ED3 /* FileSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSession.h; sourceTree = "<group>"; };
-		CC0027BD1A98586C00760ED3 /* FileSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSession.m; sourceTree = "<group>"; };
 		CC032F871A8D4C2000D16270 /* MasterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterCell.h; sourceTree = "<group>"; };
 		CC032F881A8D4C2000D16270 /* MasterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterCell.m; sourceTree = "<group>"; };
 		CC46BA2F1A90138D00FA2715 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -93,13 +148,7 @@
 		CC5786141A9B31FC007BBDC6 /* Chicago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chicago.jpg; sourceTree = "<group>"; };
 		CC6295861B104ED4006301BA /* DefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultManager.h; sourceTree = "<group>"; };
 		CC6295871B104ED4006301BA /* DefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultManager.m; sourceTree = "<group>"; };
-		CC62958C1B1065D5006301BA /* FileSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSession.h; sourceTree = "<group>"; };
-		CC62958D1B1065D5006301BA /* FileSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSession.m; sourceTree = "<group>"; };
 		CC62958F1B106D91006301BA /* Tech Time WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tech Time WatchKit Extension.entitlements"; sourceTree = "<group>"; };
-		CC6295901B106F6D006301BA /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
-		CC6295911B106F6D006301BA /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
-		CC6295961B107814006301BA /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
-		CC6295971B107814006301BA /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		CC949A541AE737230097C59A /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
 		CC949A551AE737230097C59A /* 6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.PNG; sourceTree = "<group>"; };
 		CC949A561AE737230097C59A /* 5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.PNG; sourceTree = "<group>"; };
@@ -108,6 +157,16 @@
 		CC949A591AE737230097C59A /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
 		CC98605B1A8EA41A00217B10 /* bookmarkTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookmarkTableViewController.h; sourceTree = "<group>"; };
 		CC98605C1A8EA41A00217B10 /* bookmarkTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookmarkTableViewController.m; sourceTree = "<group>"; };
+		CC9F6CA11B1137B50033B53C /* NewsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9F6CA41B1137B50033B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9F6CA51B1137B50033B53C /* NewsKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsKit.h; sourceTree = "<group>"; };
+		CC9F6CAB1B1137B50033B53C /* NewsKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9F6CB31B1137B50033B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9F6CB41B1137B50033B53C /* NewsKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsKitTests.m; sourceTree = "<group>"; };
+		CC9F6CC81B113CED0033B53C /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		CC9F6CC91B113CED0033B53C /* FileSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSession.h; sourceTree = "<group>"; };
+		CC9F6CCA1B113CED0033B53C /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		CC9F6CCB1B113CED0033B53C /* FileSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSession.m; sourceTree = "<group>"; };
 		CCBEE9901B0FB91C000E0307 /* Tech Time WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tech Time WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCBEE9931B0FB91C000E0307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCBEE9941B0FB91C000E0307 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
@@ -143,10 +202,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CC9F6C9D1B1137B50033B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9F6CA81B1137B50033B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9F6CAC1B1137B50033B53C /* NewsKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCBEE98D1B0FB91C000E0307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9F6CC11B1139490033B53C /* NewsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +229,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9F6CB81B1137B50033B53C /* NewsKit.framework in Frameworks */,
 				CC46BA301A90138D00FA2715 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,12 +273,48 @@
 			name = bookmark;
 			sourceTree = "<group>";
 		};
+		CC9F6CA21B1137B50033B53C /* NewsKit */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F6CA51B1137B50033B53C /* NewsKit.h */,
+				CC9F6CC81B113CED0033B53C /* Article.h */,
+				CC9F6CCA1B113CED0033B53C /* Article.m */,
+				CC9F6CC91B113CED0033B53C /* FileSession.h */,
+				CC9F6CCB1B113CED0033B53C /* FileSession.m */,
+				CC9F6CA31B1137B50033B53C /* Supporting Files */,
+			);
+			path = NewsKit;
+			sourceTree = "<group>";
+		};
+		CC9F6CA31B1137B50033B53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F6CA41B1137B50033B53C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC9F6CB11B1137B50033B53C /* NewsKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F6CB41B1137B50033B53C /* NewsKitTests.m */,
+				CC9F6CB21B1137B50033B53C /* Supporting Files */,
+			);
+			path = NewsKitTests;
+			sourceTree = "<group>";
+		};
+		CC9F6CB21B1137B50033B53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9F6CB31B1137B50033B53C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		CCBEE9911B0FB91C000E0307 /* Tech Time WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				CC62958F1B106D91006301BA /* Tech Time WatchKit Extension.entitlements */,
-				CC62958C1B1065D5006301BA /* FileSession.h */,
-				CC62958D1B1065D5006301BA /* FileSession.m */,
 				CCBEE9951B0FB91C000E0307 /* InterfaceController.h */,
 				CCBEE9961B0FB91C000E0307 /* InterfaceController.m */,
 				CCBEE9981B0FB91C000E0307 /* NotificationController.h */,
@@ -211,8 +323,6 @@
 				CC54E1091B0FD1A800D40DC3 /* pageController.m */,
 				CCBEE99B1B0FB91C000E0307 /* GlanceController.h */,
 				CCBEE99C1B0FB91C000E0307 /* GlanceController.m */,
-				CC6295961B107814006301BA /* Article.m */,
-				CC6295971B107814006301BA /* Article.h */,
 				CCBEE99E1B0FB91C000E0307 /* Images.xcassets */,
 				CCBEE9921B0FB91C000E0307 /* Supporting Files */,
 			);
@@ -260,6 +370,8 @@
 				CCC6678D1A8B1DE600566932 /* Tech TimeTests */,
 				CCBEE9911B0FB91C000E0307 /* Tech Time WatchKit Extension */,
 				CCBEE9A61B0FB91C000E0307 /* Tech Time WatchKit App */,
+				CC9F6CA21B1137B50033B53C /* NewsKit */,
+				CC9F6CB11B1137B50033B53C /* NewsKitTests */,
 				CCC6676F1A8B1DE500566932 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -271,6 +383,8 @@
 				CCC6678A1A8B1DE600566932 /* Tech TimeTests.xctest */,
 				CCBEE9901B0FB91C000E0307 /* Tech Time WatchKit Extension.appex */,
 				CCBEE9A21B0FB91C000E0307 /* Tech Time WatchKit App.app */,
+				CC9F6CA11B1137B50033B53C /* NewsKit.framework */,
+				CC9F6CAB1B1137B50033B53C /* NewsKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -279,14 +393,10 @@
 			isa = PBXGroup;
 			children = (
 				CC54E10B1B0FD7D400D40DC3 /* Tech Time.entitlements */,
-				CC0027BC1A98586C00760ED3 /* FileSession.h */,
-				CC0027BD1A98586C00760ED3 /* FileSession.m */,
 				CC6295861B104ED4006301BA /* DefaultManager.h */,
 				CC6295871B104ED4006301BA /* DefaultManager.m */,
 				CCD5DBA91A8C620800D77401 /* SharedNetworking.h */,
 				CCD5DBAA1A8C620800D77401 /* SharedNetworking.m */,
-				CC6295901B106F6D006301BA /* Article.m */,
-				CC6295911B106F6D006301BA /* Article.h */,
 				CC032F8A1A8D4C2F00D16270 /* Master */,
 				CC032F8B1A8D4C4500D16270 /* Detail */,
 				CC9860571A8EA39400217B10 /* bookmark */,
@@ -330,7 +440,57 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		CC9F6C9E1B1137B50033B53C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9F6CA61B1137B50033B53C /* NewsKit.h in Headers */,
+				CC9F6CCD1B113CED0033B53C /* FileSession.h in Headers */,
+				CC9F6CCC1B113CED0033B53C /* Article.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		CC9F6CA01B1137B50033B53C /* NewsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9F6CBA1B1137B50033B53C /* Build configuration list for PBXNativeTarget "NewsKit" */;
+			buildPhases = (
+				CC9F6C9C1B1137B50033B53C /* Sources */,
+				CC9F6C9D1B1137B50033B53C /* Frameworks */,
+				CC9F6C9E1B1137B50033B53C /* Headers */,
+				CC9F6C9F1B1137B50033B53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsKit;
+			productName = NewsKit;
+			productReference = CC9F6CA11B1137B50033B53C /* NewsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC9F6CAA1B1137B50033B53C /* NewsKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9F6CBE1B1137B50033B53C /* Build configuration list for PBXNativeTarget "NewsKitTests" */;
+			buildPhases = (
+				CC9F6CA71B1137B50033B53C /* Sources */,
+				CC9F6CA81B1137B50033B53C /* Frameworks */,
+				CC9F6CA91B1137B50033B53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9F6CAE1B1137B50033B53C /* PBXTargetDependency */,
+				CC9F6CB01B1137B50033B53C /* PBXTargetDependency */,
+			);
+			name = NewsKitTests;
+			productName = NewsKitTests;
+			productReference = CC9F6CAB1B1137B50033B53C /* NewsKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CCBEE98F1B0FB91C000E0307 /* Tech Time WatchKit Extension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCBEE9B61B0FB91C000E0307 /* Build configuration list for PBXNativeTarget "Tech Time WatchKit Extension" */;
@@ -338,11 +498,13 @@
 				CCBEE98C1B0FB91C000E0307 /* Sources */,
 				CCBEE98D1B0FB91C000E0307 /* Frameworks */,
 				CCBEE98E1B0FB91C000E0307 /* Resources */,
+				CC9F6CC51B11394A0033B53C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				CCBEE9A51B0FB91C000E0307 /* PBXTargetDependency */,
+				CC9F6CC41B1139490033B53C /* PBXTargetDependency */,
 			);
 			name = "Tech Time WatchKit Extension";
 			productName = "Tech Time WatchKit Extension";
@@ -372,11 +534,13 @@
 				CCC6676B1A8B1DE500566932 /* Frameworks */,
 				CCC6676C1A8B1DE500566932 /* Resources */,
 				CCBEE9B71B0FB91C000E0307 /* Embed App Extensions */,
+				CC9F6CBD1B1137B50033B53C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				CCBEE9AF1B0FB91C000E0307 /* PBXTargetDependency */,
+				CC9F6CB71B1137B50033B53C /* PBXTargetDependency */,
 			);
 			name = "Tech Time";
 			productName = "Tech Time";
@@ -410,6 +574,14 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = XiaoYifan;
 				TargetAttributes = {
+					CC9F6CA01B1137B50033B53C = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 4NPA9YHQ69;
+					};
+					CC9F6CAA1B1137B50033B53C = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CCC6676D1A8B1DE500566932;
+					};
 					CCBEE98F1B0FB91C000E0307 = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = 4NPA9YHQ69;
@@ -455,11 +627,27 @@
 				CCC667891A8B1DE600566932 /* Tech TimeTests */,
 				CCBEE98F1B0FB91C000E0307 /* Tech Time WatchKit Extension */,
 				CCBEE9A11B0FB91C000E0307 /* Tech Time WatchKit App */,
+				CC9F6CA01B1137B50033B53C /* NewsKit */,
+				CC9F6CAA1B1137B50033B53C /* NewsKitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CC9F6C9F1B1137B50033B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9F6CA91B1137B50033B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCBEE98E1B0FB91C000E0307 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,16 +694,31 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CC9F6C9C1B1137B50033B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9F6CCF1B113CED0033B53C /* FileSession.m in Sources */,
+				CC9F6CCE1B113CED0033B53C /* Article.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC9F6CA71B1137B50033B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9F6CB51B1137B50033B53C /* NewsKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CCBEE98C1B0FB91C000E0307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */,
 				CCBEE99A1B0FB91C000E0307 /* NotificationController.m in Sources */,
-				CC6295981B107814006301BA /* Article.m in Sources */,
 				CCBEE9971B0FB91C000E0307 /* InterfaceController.m in Sources */,
 				CCBEE99D1B0FB91C000E0307 /* GlanceController.m in Sources */,
-				CC62958E1B1065D5006301BA /* FileSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,14 +726,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC6295921B106F6D006301BA /* Article.m in Sources */,
 				CCC667771A8B1DE500566932 /* AppDelegate.m in Sources */,
 				CCC6677A1A8B1DE500566932 /* MasterViewController.m in Sources */,
 				CCD5DBAB1A8C620800D77401 /* SharedNetworking.m in Sources */,
 				CC032F891A8D4C2000D16270 /* MasterCell.m in Sources */,
 				CCC667741A8B1DE500566932 /* main.m in Sources */,
 				CC98605D1A8EA41A00217B10 /* bookmarkTableViewController.m in Sources */,
-				CC0027BE1A98586C00760ED3 /* FileSession.m in Sources */,
 				CCC6677D1A8B1DE500566932 /* DetailViewController.m in Sources */,
 				CC6295881B104ED4006301BA /* DefaultManager.m in Sources */,
 			);
@@ -547,6 +748,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CC9F6CAE1B1137B50033B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9F6CA01B1137B50033B53C /* NewsKit */;
+			targetProxy = CC9F6CAD1B1137B50033B53C /* PBXContainerItemProxy */;
+		};
+		CC9F6CB01B1137B50033B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC6676D1A8B1DE500566932 /* Tech Time */;
+			targetProxy = CC9F6CAF1B1137B50033B53C /* PBXContainerItemProxy */;
+		};
+		CC9F6CB71B1137B50033B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9F6CA01B1137B50033B53C /* NewsKit */;
+			targetProxy = CC9F6CB61B1137B50033B53C /* PBXContainerItemProxy */;
+		};
+		CC9F6CC41B1139490033B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC9F6CA01B1137B50033B53C /* NewsKit */;
+			targetProxy = CC9F6CC31B1139490033B53C /* PBXContainerItemProxy */;
+		};
 		CCBEE9A51B0FB91C000E0307 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CCBEE9A11B0FB91C000E0307 /* Tech Time WatchKit App */;
@@ -592,6 +813,96 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CC9F6CBB1B1137B50033B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC9F6CBC1B1137B50033B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = NewsKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC9F6CBF1B1137B50033B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NewsKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tech Time.app/Tech Time";
+			};
+			name = Debug;
+		};
+		CC9F6CC01B1137B50033B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = NewsKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tech Time.app/Tech Time";
+			};
+			name = Release;
+		};
 		CCBEE9B11B0FB91C000E0307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -819,6 +1130,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CC9F6CBA1B1137B50033B53C /* Build configuration list for PBXNativeTarget "NewsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9F6CBB1B1137B50033B53C /* Debug */,
+				CC9F6CBC1B1137B50033B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC9F6CBE1B1137B50033B53C /* Build configuration list for PBXNativeTarget "NewsKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9F6CBF1B1137B50033B53C /* Debug */,
+				CC9F6CC01B1137B50033B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		CCBEE9B51B0FB91C000E0307 /* Build configuration list for PBXNativeTarget "Tech Time WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

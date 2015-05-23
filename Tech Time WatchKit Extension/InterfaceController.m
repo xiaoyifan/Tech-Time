@@ -9,6 +9,7 @@
 #import "InterfaceController.h"
 #import "DefaultManager.h"
 #import "Article.h"
+#import "NewsKit.h"
 #import "FileSession.h"
 
 @interface InterfaceController()

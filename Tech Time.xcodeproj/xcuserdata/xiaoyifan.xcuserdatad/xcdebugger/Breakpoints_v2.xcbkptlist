@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tech Time WatchKit Extension/InterfaceController.m"
-            timestampString = "454061760.012196"
+            timestampString = "454114923.739772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "-newsButtonPressed"
             landmarkType = "5">
          </BreakpointContent>

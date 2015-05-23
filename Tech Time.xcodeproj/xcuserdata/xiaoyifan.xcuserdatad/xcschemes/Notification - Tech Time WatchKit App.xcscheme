@@ -48,6 +48,20 @@
                ReferencedContainer = "container:Tech Time.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CC9F6CAA1B1137B50033B53C"
+               BuildableName = "NewsKitTests.xctest"
+               BlueprintName = "NewsKitTests"
+               ReferencedContainer = "container:Tech Time.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -56,6 +70,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CC9F6CAA1B1137B50033B53C"
+               BuildableName = "NewsKitTests.xctest"
+               BlueprintName = "NewsKitTests"
+               ReferencedContainer = "container:Tech Time.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

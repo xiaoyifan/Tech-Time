@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>85CCC49D-3260-492C-AF32-1A6FBECAE01C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Tech Time</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1382987FADB979134665C05B7C7F544B6B271C6C</key>
 		<string>https://github.com/xiaoyifan/Tech-Time.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Tech Time.xcodeproj/project.xcworkspace</string>
+	<string>Tech Time.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1382987FADB979134665C05B7C7F544B6B271C6C</key>

@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>NewsKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Notification - Tech Time WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +32,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>CC9F6CA01B1137B50033B53C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9F6CAA1B1137B50033B53C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>CCBEE9A11B0FB91C000E0307</key>
 		<dict>
 			<key>primary</key>
