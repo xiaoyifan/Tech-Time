@@ -7,9 +7,13 @@
 //
 
 #import "GlanceController.h"
+#import "FileSession.h"
+#import "Article.h"
 
 
 @interface GlanceController()
+
+@property (weak, nonatomic) IBOutlet WKInterfaceLabel *contentSnippetLabel;
 
 @end
 
@@ -20,11 +24,20 @@
     [super awakeWithContext:context];
 
     // Configure interface objects here.
-}
+    
+    NSURL *tableURL = [FileSession getTableURL];
+    NSArray *array = [FileSession readDataFromList:tableURL];
+    
+    Article *article = array[0];
+    self.contentSnippetLabel.text  =article.title;
+    
+    }
 
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
+    
+    
 }
 
 - (void)didDeactivate {
