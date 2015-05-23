@@ -7,14 +7,19 @@
 //
 
 #import "InterfaceController.h"
-
+#import "DefaultManager.h"
+#import "Article.h"
+#import "FileSession.h"
 
 @interface InterfaceController()
+
 
 @end
 
 
 @implementation InterfaceController
+
+static NSString *appGroup = @"group.mobi.xiaoyifan.techtime";
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
@@ -47,19 +52,13 @@
                                  @"pageController"
                                  ];
     
-    NSArray *contexts  = @[@"1",
-                           @"2",
-                           @"3",
-                           @"4",
-                           @"5",
-                           @"6",
-                           @"7",
-                           @"8",
-                           @"9",
-                           @"10",];
+
     //get from the main app
     
-    [self presentControllerWithNames:controllerNames contexts:contexts];
+    NSURL *tableURL = [FileSession getTableURL];
+    NSArray *array = [FileSession readDataFromList:tableURL];
+    
+    [self presentControllerWithNames:controllerNames contexts:array];
     
 }
 

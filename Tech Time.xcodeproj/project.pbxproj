@@ -12,7 +12,10 @@
 		CC46BA301A90138D00FA2715 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC46BA2F1A90138D00FA2715 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC54E1091B0FD1A800D40DC3 /* pageController.m */; };
 		CC5786151A9B31FC007BBDC6 /* Chicago.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC5786141A9B31FC007BBDC6 /* Chicago.jpg */; };
-		CC7772341A98418900A012D4 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7772331A98418900A012D4 /* Article.m */; };
+		CC6295881B104ED4006301BA /* DefaultManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6295871B104ED4006301BA /* DefaultManager.m */; };
+		CC62958E1B1065D5006301BA /* FileSession.m in Sources */ = {isa = PBXBuildFile; fileRef = CC62958D1B1065D5006301BA /* FileSession.m */; };
+		CC6295921B106F6D006301BA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6295901B106F6D006301BA /* Article.m */; };
+		CC6295951B106F98006301BA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6295931B106F98006301BA /* Article.m */; };
 		CC949A5A1AE737230097C59A /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A541AE737230097C59A /* 1.PNG */; };
 		CC949A5B1AE737230097C59A /* 6.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A551AE737230097C59A /* 6.PNG */; };
 		CC949A5C1AE737230097C59A /* 5.PNG in Resources */ = {isa = PBXBuildFile; fileRef = CC949A561AE737230097C59A /* 5.PNG */; };
@@ -88,8 +91,15 @@
 		CC54E1091B0FD1A800D40DC3 /* pageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pageController.m; sourceTree = "<group>"; };
 		CC54E10B1B0FD7D400D40DC3 /* Tech Time.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tech Time.entitlements"; sourceTree = "<group>"; };
 		CC5786141A9B31FC007BBDC6 /* Chicago.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chicago.jpg; sourceTree = "<group>"; };
-		CC7772321A98418900A012D4 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Article.h; path = ../Article.h; sourceTree = "<group>"; };
-		CC7772331A98418900A012D4 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Article.m; path = ../Article.m; sourceTree = "<group>"; };
+		CC6295861B104ED4006301BA /* DefaultManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultManager.h; sourceTree = "<group>"; };
+		CC6295871B104ED4006301BA /* DefaultManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultManager.m; sourceTree = "<group>"; };
+		CC62958C1B1065D5006301BA /* FileSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSession.h; sourceTree = "<group>"; };
+		CC62958D1B1065D5006301BA /* FileSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSession.m; sourceTree = "<group>"; };
+		CC62958F1B106D91006301BA /* Tech Time WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tech Time WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		CC6295901B106F6D006301BA /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		CC6295911B106F6D006301BA /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		CC6295931B106F98006301BA /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		CC6295941B106F98006301BA /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		CC949A541AE737230097C59A /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
 		CC949A551AE737230097C59A /* 6.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.PNG; sourceTree = "<group>"; };
 		CC949A561AE737230097C59A /* 5.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.PNG; sourceTree = "<group>"; };
@@ -190,6 +200,11 @@
 		CCBEE9911B0FB91C000E0307 /* Tech Time WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				CC62958F1B106D91006301BA /* Tech Time WatchKit Extension.entitlements */,
+				CC6295931B106F98006301BA /* Article.m */,
+				CC6295941B106F98006301BA /* Article.h */,
+				CC62958C1B1065D5006301BA /* FileSession.h */,
+				CC62958D1B1065D5006301BA /* FileSession.m */,
 				CCBEE9951B0FB91C000E0307 /* InterfaceController.h */,
 				CCBEE9961B0FB91C000E0307 /* InterfaceController.m */,
 				CCBEE9981B0FB91C000E0307 /* NotificationController.h */,
@@ -266,10 +281,12 @@
 				CC54E10B1B0FD7D400D40DC3 /* Tech Time.entitlements */,
 				CC0027BC1A98586C00760ED3 /* FileSession.h */,
 				CC0027BD1A98586C00760ED3 /* FileSession.m */,
+				CC6295861B104ED4006301BA /* DefaultManager.h */,
+				CC6295871B104ED4006301BA /* DefaultManager.m */,
 				CCD5DBA91A8C620800D77401 /* SharedNetworking.h */,
 				CCD5DBAA1A8C620800D77401 /* SharedNetworking.m */,
-				CC7772321A98418900A012D4 /* Article.h */,
-				CC7772331A98418900A012D4 /* Article.m */,
+				CC6295901B106F6D006301BA /* Article.m */,
+				CC6295911B106F6D006301BA /* Article.h */,
 				CC032F8A1A8D4C2F00D16270 /* Master */,
 				CC032F8B1A8D4C4500D16270 /* Detail */,
 				CC9860571A8EA39400217B10 /* bookmark */,
@@ -396,6 +413,11 @@
 					CCBEE98F1B0FB91C000E0307 = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = 4NPA9YHQ69;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					CCBEE9A11B0FB91C000E0307 = {
 						CreatedOnToolsVersion = 6.3;
@@ -490,8 +512,10 @@
 			files = (
 				CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */,
 				CCBEE99A1B0FB91C000E0307 /* NotificationController.m in Sources */,
+				CC6295951B106F98006301BA /* Article.m in Sources */,
 				CCBEE9971B0FB91C000E0307 /* InterfaceController.m in Sources */,
 				CCBEE99D1B0FB91C000E0307 /* GlanceController.m in Sources */,
+				CC62958E1B1065D5006301BA /* FileSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,7 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7772341A98418900A012D4 /* Article.m in Sources */,
+				CC6295921B106F6D006301BA /* Article.m in Sources */,
 				CCC667771A8B1DE500566932 /* AppDelegate.m in Sources */,
 				CCC6677A1A8B1DE500566932 /* MasterViewController.m in Sources */,
 				CCD5DBAB1A8C620800D77401 /* SharedNetworking.m in Sources */,
@@ -508,6 +532,7 @@
 				CC98605D1A8EA41A00217B10 /* bookmarkTableViewController.m in Sources */,
 				CC0027BE1A98586C00760ED3 /* FileSession.m in Sources */,
 				CCC6677D1A8B1DE500566932 /* DetailViewController.m in Sources */,
+				CC6295881B104ED4006301BA /* DefaultManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,7 +595,9 @@
 		CCBEE9B11B0FB91C000E0307 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tech Time WatchKit Extension/Tech Time WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -581,6 +608,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -588,7 +616,9 @@
 		CCBEE9B21B0FB91C000E0307 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tech Time WatchKit Extension/Tech Time WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -596,6 +626,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

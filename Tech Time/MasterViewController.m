@@ -10,6 +10,8 @@
 #import "SharedNetworking.h"
 #import "MasterCell.h"
 #import "Article.h"
+#import "DefaultManager.h"
+#import "FileSession.h"
 
 @interface MasterViewController ()
 
@@ -160,6 +162,8 @@
                                                      }
                                                      
                                                      [self.objects removeAllObjects];
+                                                     NSURL *tableURL = [FileSession getTableURL];
+                                                     [FileSession writeData:nil ToList:tableURL];
                                                      for (NSDictionary *link in self.links) {
                                                          Article *article = [[Article alloc]init];
                                                          article.title = [link objectForKey:@"title"];
@@ -169,7 +173,6 @@
                                                          
                                                          
                                                          [self.objects addObject:article];
-                                                        
                                         
                                                      }
                                                      
@@ -177,6 +180,9 @@
                                                          [self.tableView reloadData];
 //                                                       //Post notification when the table data is loaded
                                                          [[NSNotificationCenter defaultCenter] postNotificationName:@"tableViewdidLoad" object:self];
+                                                         
+                                                         NSURL *tableURL = [FileSession getTableURL];
+                                                         [FileSession writeData:self.objects ToList:tableURL];
 
                                                      });
                                                  }failure:^{

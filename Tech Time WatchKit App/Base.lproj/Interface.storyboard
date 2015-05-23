@@ -39,7 +39,7 @@
             <objects>
                 <controller identifier="pageController" id="NLU-WA-OaJ" customClass="pageController">
                     <items>
-                        <label width="1" height="0.5" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="aWH-9G-is6"/>
+                        <label width="1" height="0.5" alignment="center" text="Label" textAlignment="center" id="aWH-9G-is6"/>
                     </items>
                     <connections>
                         <outlet property="pageLabel" destination="aWH-9G-is6" id="D2p-fG-WGf"/>
@@ -66,7 +66,8 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                        <label alignment="center" text="Fresh News" id="XkS-y5-khE"/>
+                        <label width="1" height="39" alignment="center" verticalAlignment="center" text="Label" id="HBx-Qy-Q4N"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>

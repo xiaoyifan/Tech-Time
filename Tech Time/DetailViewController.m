@@ -280,17 +280,7 @@
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
     self.loadingView.hidden = YES;
     [self.networkIndicator stopAnimating];
-    
-    
-//    
-//    CGSize contentSize = webView.scrollView.contentSize;
-//    CGSize viewSize = self.view.bounds.size;
-//    
-//    float rw = viewSize.width / contentSize.width;
-//    
-//    webView.scrollView.minimumZoomScale = rw;
-//    webView.scrollView.maximumZoomScale = rw;
-//    webView.scrollView.zoomScale = rw;
+
     
 }
 

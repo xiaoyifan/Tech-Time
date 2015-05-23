@@ -7,6 +7,7 @@
 //
 
 #import "pageController.h"
+#import "Article.h"
 
 @interface pageController ()
 
@@ -20,8 +21,9 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
     
-    
-    [self.pageLabel setText:[NSString stringWithFormat:@"%@ Page", context]];
+    Article *article = context;
+
+    [self.pageLabel setText:[NSString stringWithFormat:@"%@", article.title]];
     // Configure interface objects here.
 }
 
