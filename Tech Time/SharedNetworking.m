@@ -24,14 +24,14 @@
 + (BOOL)isNetworkAvailable
 {
     CFNetDiagnosticRef dReference;
-    dReference = CFNetDiagnosticCreateWithURL (NULL, (__bridge CFURLRef)[NSURL URLWithString:@"www.apple.com"]);
+    dReference = CFNetDiagnosticCreateWithURL (NULL, (__bridge CFURLRef)[NSURL URLWithString:@"www.baidu.com"]);
     
     CFNetDiagnosticStatus status;
     status = CFNetDiagnosticCopyNetworkStatusPassively (dReference, NULL);
     
     CFRelease (dReference);
     
-    if ( status == kCFNetDiagnosticConnectionUp ) {
+    if ( status == kCFNetDiagnosticConnectionUp || status == kCFNetDiagnosticConnectionDown) {
         NSLog (@"Connection is fine");
         return YES;
     }
@@ -55,7 +55,9 @@
     // Google News API url
 //    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Fbeautifulpixels.com/feed/";
     
-    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Fbits.blogs.nytimes.com/feed";
+//    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Fbits.blogs.nytimes.com/feed";
+    
+    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Ffeeds.webservice.techradar.com/us/rss/news/software";
     
     // Create NSUrlSession
     NSURLSession *session = [NSURLSession sharedSession];
