@@ -80,6 +80,12 @@ static NSString *appGroup = @"group.mobi.xiaoyifan.techtime";
 }
 
 
+-(void)handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)remoteNotification{
+    if ([identifier isEqualToString:@"firstButtonAction"]) {
+        NSLog(@"first button in Notification is pressed.");
+    }
+}
+
 
 
 @end

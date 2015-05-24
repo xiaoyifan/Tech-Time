@@ -1,7 +1,7 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
+            "body": "Wanna fresh news?",
             "title": "Optional title"
         },
         "category": "myCategory"
@@ -9,7 +9,7 @@
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
+            "title": "Check Out",
             "identifier": "firstButtonAction"
         }
     ],

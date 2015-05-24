@@ -87,9 +87,9 @@
                 <notificationController id="YCC-NB-fut">
                     <items>
                         <label alignment="center" text="Fresh News" id="XkS-y5-khE"/>
-                        <label width="1" height="39" alignment="center" verticalAlignment="center" text="Label" id="HBx-Qy-Q4N"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <color key="backgroundColor" red="0.18147796618594492" green="0.70009078188042051" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
                         <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
@@ -101,7 +101,9 @@
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
-                <controller id="gdX-wl-uQE" customClass="NotificationController"/>
+                <controller id="gdX-wl-uQE" customClass="NotificationController">
+                    <color key="backgroundColor" red="0.18147796618594492" green="0.70009078188042051" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </controller>
             </objects>
             <point key="canvasLocation" x="446" y="1001"/>
         </scene>

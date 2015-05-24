@@ -55,7 +55,7 @@
     // Google News API url
 //    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Fbeautifulpixels.com/feed/";
     
-    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Fengadget.com/rss.xml";
+    NSString *googleUrl = @"http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&q=http%3A%2F%2Fbits.blogs.nytimes.com/feed";
     
     // Create NSUrlSession
     NSURLSession *session = [NSURLSession sharedSession];
