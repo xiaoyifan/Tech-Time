@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NewsKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Tech Time WatchKit App (Glance).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Tech Time WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Tech Time WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Tech Time.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CC9F6CA01B1137B50033B53C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9F6CAA1B1137B50033B53C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCBEE9A11B0FB91C000E0307</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCC6676D1A8B1DE500566932</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CCC667891A8B1DE600566932</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
