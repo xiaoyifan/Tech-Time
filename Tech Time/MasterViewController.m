@@ -42,14 +42,6 @@
     //tableView Cell auto-resizing
 }
 
-- (void)viewDidAppear:(BOOL)animated{
-    VungleSDK* sdk = [VungleSDK sharedSDK];
-    NSError *error;
-    [sdk playAd:self error:&error];
-    
-    NSLog(@"Vungle SDK playing video with error: %@", error);
-}
-
 
 - (void)viewDidLoad {
     

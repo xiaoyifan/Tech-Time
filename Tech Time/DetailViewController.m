@@ -11,6 +11,7 @@
 #import "bookmarkTableViewController.h"
 #import "FileSession.h"
 
+#import <VungleSDK/VungleSDK.h>
 
 @interface DetailViewController ()<UIWebViewDelegate, UIActionSheetDelegate, NSCoding, UIPopoverPresentationControllerDelegate>
 
@@ -114,6 +115,16 @@
                  object:nil];
     
     
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    VungleSDK* sdk = [VungleSDK sharedSDK];
+    NSError *error;
+    [sdk playAd:self error:&error];
+    
+    
+    
+    NSLog(@"Vungle SDK playing video with error: %@", error);
 }
 
 
