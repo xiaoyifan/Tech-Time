@@ -10,6 +10,8 @@
 #import "DetailViewController.h"
 #import "MasterViewController.h"
 
+#import <VungleSDK/VungleSDK.h>
+
 @interface AppDelegate () <UISplitViewControllerDelegate>
 
 @property (nonatomic, strong) UIViewController *vc;
@@ -49,6 +51,10 @@
         }
         //Set relative attributes for the night/day mode
     }
+    
+    VungleSDK* sdk = [VungleSDK sharedSDK];
+    // start vungle publisher library
+    [sdk startWithAppId:@"5768b5316a14a5c114000136"];
     
 
     //MasterViewController *master = (MasterViewController *)[[splitViewController.viewControllers firstObject] topViewController];

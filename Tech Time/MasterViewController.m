@@ -13,6 +13,8 @@
 #import "DefaultManager.h"
 #import "FileSession.h"
 
+#import <VungleSDK/VungleSDK.h>
+
 @interface MasterViewController ()
 
 @property NSDictionary* links;
@@ -38,6 +40,14 @@
     self.tableView.estimatedRowHeight = 140;
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     //tableView Cell auto-resizing
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    VungleSDK* sdk = [VungleSDK sharedSDK];
+    NSError *error;
+    [sdk playAd:self error:&error];
+    
+    NSLog(@"Vungle SDK playing video with error: %@", error);
 }
 
 
@@ -91,8 +101,6 @@
                selector:@selector(stateChanged)
                    name:NSUserDefaultsDidChangeNotification
                  object:nil];
-
-    
 
 }
 
