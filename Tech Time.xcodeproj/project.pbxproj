@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05941DA3F90C526D91DC6013 /* libPods-Tech Time WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F93D1F58FB55721C29E93888 /* libPods-Tech Time WatchKit Extension.a */; };
+		4F6764A413C56886620E25D4 /* libPods-Tech Time WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8F7527B935B890F02C5427 /* libPods-Tech Time WatchKit App.a */; };
+		557C50D5B0DD9060A259D8DC /* libPods-Tech Time.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B1E88F6F095F6DF0BE7F59 /* libPods-Tech Time.a */; };
+		5BFF6327EA518F842E18A7F3 /* libPods-NewsKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25C6CBFA0C8A4C56CAF6AAD8 /* libPods-NewsKit.a */; };
+		6DD5A7F10EED92223A19C2EC /* libPods-NewsKitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AA38ED7C9486D00EBF084D /* libPods-NewsKitTests.a */; };
 		CC032F891A8D4C2000D16270 /* MasterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC032F881A8D4C2000D16270 /* MasterCell.m */; };
 		CC46BA301A90138D00FA2715 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC46BA2F1A90138D00FA2715 /* Social.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		CC54E10A1B0FD1A800D40DC3 /* pageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC54E1091B0FD1A800D40DC3 /* pageController.m */; };
@@ -48,6 +53,7 @@
 		CCC667851A8B1DE500566932 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC667831A8B1DE500566932 /* LaunchScreen.xib */; };
 		CCC667911A8B1DE600566932 /* Tech_TimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC667901A8B1DE600566932 /* Tech_TimeTests.m */; };
 		CCD5DBAB1A8C620800D77401 /* SharedNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD5DBAA1A8C620800D77401 /* SharedNetworking.m */; };
+		DB1A44D86434D301FEEE1A67 /* libPods-Tech TimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7520399FE7C72C54179381 /* libPods-Tech TimeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +145,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0190A8DC5A371DCE15388214 /* Pods-Tech TimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech TimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tech TimeTests/Pods-Tech TimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		055002D4226DB6AF72C87C3D /* Pods-Tech Time WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Time WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tech Time WatchKit Extension/Pods-Tech Time WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		12B1E88F6F095F6DF0BE7F59 /* libPods-Tech Time.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tech Time.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2A202A048D62EBF0AA69B2 /* Pods-NewsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsKit/Pods-NewsKit.debug.xcconfig"; sourceTree = "<group>"; };
+		25C6CBFA0C8A4C56CAF6AAD8 /* libPods-NewsKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C34ED2E9144E0C06AF282D3 /* Pods-Tech Time WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Time WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tech Time WatchKit App/Pods-Tech Time WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		75AA38ED7C9486D00EBF084D /* libPods-NewsKitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsKitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CFA2905A2D83131C4F98E2 /* Pods-Tech Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Time.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tech Time/Pods-Tech Time.release.xcconfig"; sourceTree = "<group>"; };
+		A38EF91C8F6A6F15C538EE39 /* Pods-Tech Time WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Time WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tech Time WatchKit App/Pods-Tech Time WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		AF7520399FE7C72C54179381 /* libPods-Tech TimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tech TimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C5F3EF3998B5D1BAF1D163 /* Pods-NewsKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsKitTests/Pods-NewsKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBA30D781406014036E417E8 /* Pods-Tech Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Time.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tech Time/Pods-Tech Time.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8F7527B935B890F02C5427 /* libPods-Tech Time WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tech Time WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC032F871A8D4C2000D16270 /* MasterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterCell.h; sourceTree = "<group>"; };
 		CC032F881A8D4C2000D16270 /* MasterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterCell.m; sourceTree = "<group>"; };
 		CC46BA2F1A90138D00FA2715 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
@@ -199,13 +218,27 @@
 		CCC667901A8B1DE600566932 /* Tech_TimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tech_TimeTests.m; sourceTree = "<group>"; };
 		CCD5DBA91A8C620800D77401 /* SharedNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedNetworking.h; sourceTree = "<group>"; };
 		CCD5DBAA1A8C620800D77401 /* SharedNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedNetworking.m; sourceTree = "<group>"; };
+		D35646759F919E352D3AEFB6 /* Pods-NewsKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsKitTests/Pods-NewsKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		D61FFF56F1E951E74E732511 /* Pods-NewsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsKit/Pods-NewsKit.release.xcconfig"; sourceTree = "<group>"; };
+		DC3807A35ECE7F44951649E8 /* Pods-Tech Time WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech Time WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tech Time WatchKit Extension/Pods-Tech Time WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		E4FB59DB3C00F359A7027D82 /* Pods-Tech TimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech TimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tech TimeTests/Pods-Tech TimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F93D1F58FB55721C29E93888 /* libPods-Tech Time WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tech Time WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B1D4B745300461481CCEC804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6764A413C56886620E25D4 /* libPods-Tech Time WatchKit App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC9F6C9D1B1137B50033B53C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFF6327EA518F842E18A7F3 /* libPods-NewsKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9F6CAC1B1137B50033B53C /* NewsKit.framework in Frameworks */,
+				6DD5A7F10EED92223A19C2EC /* libPods-NewsKitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC9F6CC11B1139490033B53C /* NewsKit.framework in Frameworks */,
+				05941DA3F90C526D91DC6013 /* libPods-Tech Time WatchKit Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +266,7 @@
 			files = (
 				CC9F6CB81B1137B50033B53C /* NewsKit.framework in Frameworks */,
 				CC46BA301A90138D00FA2715 /* Social.framework in Frameworks */,
+				557C50D5B0DD9060A259D8DC /* libPods-Tech Time.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,12 +274,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1A44D86434D301FEEE1A67 /* libPods-Tech TimeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FDB16C1938A143714E8CA26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D2A202A048D62EBF0AA69B2 /* Pods-NewsKit.debug.xcconfig */,
+				D61FFF56F1E951E74E732511 /* Pods-NewsKit.release.xcconfig */,
+				B6C5F3EF3998B5D1BAF1D163 /* Pods-NewsKitTests.debug.xcconfig */,
+				D35646759F919E352D3AEFB6 /* Pods-NewsKitTests.release.xcconfig */,
+				BBA30D781406014036E417E8 /* Pods-Tech Time.debug.xcconfig */,
+				82CFA2905A2D83131C4F98E2 /* Pods-Tech Time.release.xcconfig */,
+				4C34ED2E9144E0C06AF282D3 /* Pods-Tech Time WatchKit App.debug.xcconfig */,
+				A38EF91C8F6A6F15C538EE39 /* Pods-Tech Time WatchKit App.release.xcconfig */,
+				055002D4226DB6AF72C87C3D /* Pods-Tech Time WatchKit Extension.debug.xcconfig */,
+				DC3807A35ECE7F44951649E8 /* Pods-Tech Time WatchKit Extension.release.xcconfig */,
+				E4FB59DB3C00F359A7027D82 /* Pods-Tech TimeTests.debug.xcconfig */,
+				0190A8DC5A371DCE15388214 /* Pods-Tech TimeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65782B4138A4557C188A458C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25C6CBFA0C8A4C56CAF6AAD8 /* libPods-NewsKit.a */,
+				75AA38ED7C9486D00EBF084D /* libPods-NewsKitTests.a */,
+				12B1E88F6F095F6DF0BE7F59 /* libPods-Tech Time.a */,
+				CA8F7527B935B890F02C5427 /* libPods-Tech Time WatchKit App.a */,
+				F93D1F58FB55721C29E93888 /* libPods-Tech Time WatchKit Extension.a */,
+				AF7520399FE7C72C54179381 /* libPods-Tech TimeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC032F8A1A8D4C2F00D16270 /* Master */ = {
 			isa = PBXGroup;
 			children = (
@@ -373,6 +442,8 @@
 				CC9F6CA21B1137B50033B53C /* NewsKit */,
 				CC9F6CB11B1137B50033B53C /* NewsKitTests */,
 				CCC6676F1A8B1DE500566932 /* Products */,
+				3FDB16C1938A143714E8CA26 /* Pods */,
+				65782B4138A4557C188A458C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -458,10 +529,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9F6CBA1B1137B50033B53C /* Build configuration list for PBXNativeTarget "NewsKit" */;
 			buildPhases = (
+				5AB3DB7F08935BE1A856E12A /* [CP] Check Pods Manifest.lock */,
 				CC9F6C9C1B1137B50033B53C /* Sources */,
 				CC9F6C9D1B1137B50033B53C /* Frameworks */,
 				CC9F6C9E1B1137B50033B53C /* Headers */,
 				CC9F6C9F1B1137B50033B53C /* Resources */,
+				7D7A9B3CEC15BC2ED92D2C6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,9 +549,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC9F6CBE1B1137B50033B53C /* Build configuration list for PBXNativeTarget "NewsKitTests" */;
 			buildPhases = (
+				201190462A92F0AAC9A07644 /* [CP] Check Pods Manifest.lock */,
 				CC9F6CA71B1137B50033B53C /* Sources */,
 				CC9F6CA81B1137B50033B53C /* Frameworks */,
 				CC9F6CA91B1137B50033B53C /* Resources */,
+				5190DB9565D16255AC57E683 /* [CP] Embed Pods Frameworks */,
+				84F952FA22DB72FF49F56B6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -495,10 +571,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCBEE9B61B0FB91C000E0307 /* Build configuration list for PBXNativeTarget "Tech Time WatchKit Extension" */;
 			buildPhases = (
+				0EDCD943DAADD3195C00E1B4 /* [CP] Check Pods Manifest.lock */,
 				CCBEE98C1B0FB91C000E0307 /* Sources */,
 				CCBEE98D1B0FB91C000E0307 /* Frameworks */,
 				CCBEE98E1B0FB91C000E0307 /* Resources */,
 				CC9F6CC51B11394A0033B53C /* Embed Frameworks */,
+				12B2CC59CD91205D73C9B50C /* [CP] Embed Pods Frameworks */,
+				6AEE0C31BC545DE7411AD383 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -515,7 +594,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCBEE9B51B0FB91C000E0307 /* Build configuration list for PBXNativeTarget "Tech Time WatchKit App" */;
 			buildPhases = (
+				868FC4DB255AF5A7351CDAD9 /* [CP] Check Pods Manifest.lock */,
 				CCBEE9A01B0FB91C000E0307 /* Resources */,
+				B1D4B745300461481CCEC804 /* Frameworks */,
+				69832F78B0F8F5B98DF47D3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -530,11 +612,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCC667941A8B1DE600566932 /* Build configuration list for PBXNativeTarget "Tech Time" */;
 			buildPhases = (
+				6F1EFCD2FD99D235289D9253 /* [CP] Check Pods Manifest.lock */,
 				CCC6676A1A8B1DE500566932 /* Sources */,
 				CCC6676B1A8B1DE500566932 /* Frameworks */,
 				CCC6676C1A8B1DE500566932 /* Resources */,
 				CCBEE9B71B0FB91C000E0307 /* Embed App Extensions */,
 				CC9F6CBD1B1137B50033B53C /* Embed Frameworks */,
+				C84A050E55F45753558EBDE1 /* [CP] Embed Pods Frameworks */,
+				E0C9F61C30EB1FF1A83B26A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -551,9 +636,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCC667971A8B1DE600566932 /* Build configuration list for PBXNativeTarget "Tech TimeTests" */;
 			buildPhases = (
+				A4D75A3F6870C783BE73296E /* [CP] Check Pods Manifest.lock */,
 				CCC667861A8B1DE600566932 /* Sources */,
 				CCC667871A8B1DE600566932 /* Frameworks */,
 				CCC667881A8B1DE600566932 /* Resources */,
+				9C54CD9AEBD764760D4E985D /* [CP] Embed Pods Frameworks */,
+				54A3BAADED99AF3E8F10CDC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -693,6 +781,249 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EDCD943DAADD3195C00E1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12B2CC59CD91205D73C9B50C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech Time WatchKit Extension/Pods-Tech Time WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		201190462A92F0AAC9A07644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5190DB9565D16255AC57E683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsKitTests/Pods-NewsKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54A3BAADED99AF3E8F10CDC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech TimeTests/Pods-Tech TimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB3DB7F08935BE1A856E12A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69832F78B0F8F5B98DF47D3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech Time WatchKit App/Pods-Tech Time WatchKit App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AEE0C31BC545DE7411AD383 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech Time WatchKit Extension/Pods-Tech Time WatchKit Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1EFCD2FD99D235289D9253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7A9B3CEC15BC2ED92D2C6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsKit/Pods-NewsKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F952FA22DB72FF49F56B6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsKitTests/Pods-NewsKitTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868FC4DB255AF5A7351CDAD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C54CD9AEBD764760D4E985D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech TimeTests/Pods-Tech TimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D75A3F6870C783BE73296E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C84A050E55F45753558EBDE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech Time/Pods-Tech Time-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C9F61C30EB1FF1A83B26A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tech Time/Pods-Tech Time-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC9F6C9C1B1137B50033B53C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -815,6 +1146,7 @@
 /* Begin XCBuildConfiguration section */
 		CC9F6CBB1B1137B50033B53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D2A202A048D62EBF0AA69B2 /* Pods-NewsKit.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -843,6 +1175,7 @@
 		};
 		CC9F6CBC1B1137B50033B53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61FFF56F1E951E74E732511 /* Pods-NewsKit.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -868,6 +1201,7 @@
 		};
 		CC9F6CBF1B1137B50033B53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6C5F3EF3998B5D1BAF1D163 /* Pods-NewsKitTests.debug.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -889,6 +1223,7 @@
 		};
 		CC9F6CC01B1137B50033B53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35646759F919E352D3AEFB6 /* Pods-NewsKitTests.release.xcconfig */;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -907,6 +1242,7 @@
 		};
 		CCBEE9B11B0FB91C000E0307 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055002D4226DB6AF72C87C3D /* Pods-Tech Time WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Tech Time WatchKit Extension/Tech Time WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -928,6 +1264,7 @@
 		};
 		CCBEE9B21B0FB91C000E0307 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3807A35ECE7F44951649E8 /* Pods-Tech Time WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Tech Time WatchKit Extension/Tech Time WatchKit Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -946,6 +1283,7 @@
 		};
 		CCBEE9B31B0FB91C000E0307 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C34ED2E9144E0C06AF282D3 /* Pods-Tech Time WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -967,6 +1305,7 @@
 		};
 		CCBEE9B41B0FB91C000E0307 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A38EF91C8F6A6F15C538EE39 /* Pods-Tech Time WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1063,6 +1402,7 @@
 		};
 		CCC667951A8B1DE600566932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA30D781406014036E417E8 /* Pods-Tech Time.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -1080,6 +1420,7 @@
 		};
 		CCC667961A8B1DE600566932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82CFA2905A2D83131C4F98E2 /* Pods-Tech Time.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -1097,6 +1438,7 @@
 		};
 		CCC667981A8B1DE600566932 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4FB59DB3C00F359A7027D82 /* Pods-Tech TimeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1116,6 +1458,7 @@
 		};
 		CCC667991A8B1DE600566932 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0190A8DC5A371DCE15388214 /* Pods-Tech TimeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

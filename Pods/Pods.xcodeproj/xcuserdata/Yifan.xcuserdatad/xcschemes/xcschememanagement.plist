@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-NewsKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NewsKitTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tech Time WatchKit App.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tech Time WatchKit Extension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tech Time.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tech TimeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>014B5A784F8C92BBA2ACC35D25152C66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>26C489BAAA8057C5EAFB52BEA790E153</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2B2E0FD9EA4A5D8D5C6FC907A8478EC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>63EFB9BAB3F3F495FF094DD2C95E8DCC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1BC17007C867A841773FE529F38B25A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A35C149F4B8FAB15B060A00FE83085F9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
