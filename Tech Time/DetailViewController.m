@@ -13,7 +13,7 @@
 
 #import <VungleSDK/VungleSDK.h>
 
-@interface DetailViewController ()<UIWebViewDelegate, UIActionSheetDelegate, NSCoding, UIPopoverPresentationControllerDelegate>
+@interface DetailViewController ()<UIWebViewDelegate, UIActionSheetDelegate, NSCoding, UIPopoverPresentationControllerDelegate, VungleSDKDelegate>
 
 @property (weak, nonatomic) IBOutlet UIWebView *myWebVIew;
 //the main webview of displaying web page
@@ -114,6 +114,8 @@
                    name:NSUserDefaultsDidChangeNotification
                  object:nil];
     
+    //Set VungleSDK Delegate
+    [[VungleSDK sharedSDK] setDelegate:self];
     
 }
 
@@ -121,8 +123,6 @@
     VungleSDK* sdk = [VungleSDK sharedSDK];
     NSError *error;
     [sdk playAd:self error:&error];
-    
-    
     
     NSLog(@"Vungle SDK playing video with error: %@", error);
 }
@@ -169,6 +169,30 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)vungleSDKwillShowAd{
+    NSLog(@"An ad is about to be played!");
+}
+
+- (void)vungleSDKwillCloseAdWithViewInfo:(NSDictionary *)viewInfo willPresentProductSheet:(BOOL)willPresentProductSheet{
+    if (willPresentProductSheet) {
+        //In this case we don't want to resume animations and sound, the user hasn't returned to the app yet
+        NSLog(@"The ad presented was tapped and the user is now being shown the App Product Sheet");
+        NSLog(@"ViewInfo Dictionary:");
+        for(NSString * key in [viewInfo allKeys]) {
+            NSLog(@"%@ : %@", key, [[viewInfo objectForKey:key] description]);
+        }
+    } else {
+        //In this case the user has declined to download the advertised application and is now returning fully to the main app
+        //Animations / Sound / Gameplay can be resumed now
+        NSLog(@"The ad presented was not tapped - the user has returned to the app");
+        NSLog(@"ViewInfo Dictionary:");
+        for(NSString * key in [viewInfo allKeys]) {
+            NSLog(@"%@ : %@", key, [[viewInfo objectForKey:key] description]);
+        }
+    }
 }
 
 
